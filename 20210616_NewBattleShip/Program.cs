@@ -25,7 +25,7 @@ namespace _20210616_NewBattleShip
 
             BL.GenerateGameField(ref fieldEnemy);
             BL.GenerateGameField(ref fieldHero);
-            /*while (counterShip > 0)
+            while (counterShip > 0)
             {
                 deck = BL.CreateDeck();
                 ship = BL.CreateShip(counterDeck);
@@ -59,7 +59,7 @@ namespace _20210616_NewBattleShip
 
             BL.FillField(ref fieldHero);
 
-            UI.ShowField(fieldHero, 0, 0);*/
+            UI.ShowField(fieldHero, 0, 0);
             UI.ShowField(fieldEnemy, 50, 0);
             
             while (fieldEnemy.counterDeck > 0)
